@@ -1,0 +1,30 @@
+.banner {
+	width: 100%;
+	min-height: 45px;
+	color: var(--white);
+	position: relative;
+	z-index: 10;
+  }
+  .banner-line {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: right;
+	font-weight: 600;
+	font-size: 16px;
+	min-height: inherit;
+	position: relative;
+  }
+  .banner-text {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+  }
+  .banner-support {
+	color: var(--white);
+	margin-left: 40px;
+  }
+  .banner-currency {
+	cursor: pointer;
+	font-weight: 400;
+  }

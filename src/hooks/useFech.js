@@ -25,8 +25,12 @@ export default function useFetch(url, folder, apiImg) {
                 `../assets/images/${folder}/${elem[apiImg]}`,
                 import.meta.url
               ).href;
-            } catch (err) {
-              console.warn("Nepavyko įkelti paveikslėlio:", elem[apiImg]);
+            } catch (error) {
+              // console.warn("Nepavyko įkelti paveikslėlio:", elem[apiImg]);
+              imgSrc = new URL(
+                `../assets/images/${folder}/empty.svg`,
+                import.meta.url
+              ).href;
             }
  
             return {

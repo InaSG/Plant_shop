@@ -1,11 +1,13 @@
-import CategoriesList from "./CategoriesList"
-import Title from "./Title"
-
-export default function CategoriesSection() {
-    return(
-        <section className="wrapper"> 
-            <Title text1={"Shop"} text2={"By category"} showlink={false} />
-            <CategoriesList />
-        </section>
-    )
+import "./components_style/Button.css";
+export default function Button({
+  colorName,
+  children = "SHOP NOW",
+  href = "#",
+  ...props
+}) {
+  return (
+    <a className={`button ${colorName}`} href={href}>
+      {children}
+    </a>
+  );
 }

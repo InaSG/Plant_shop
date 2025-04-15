@@ -1,16 +1,29 @@
 .button {
-    display: inline-block;
-    font-weight: 600;
-    text-align: center;
-  }
-  .white-btn {
-    background-color: var(--white);
-    color: var(--black);
-    width: 262px;
-    height: 70px;
-    font-size: 22px;
-    letter-spacing: -0.4px;
-    text-transform: uppercase;
-    line-height: 70px;
-    border-radius: 20px;
-  }
+  display: inline-block;
+  font-weight: 600;
+  text-align: center;
+}
+.white-btn {
+  background-color: var(--white);
+  color: var(--black);
+  width: 262px;
+  height: 70px;
+  font-size: 22px;
+  letter-spacing: -0.4px;
+  text-transform: uppercase;
+  line-height: 70px;
+  border-radius: 20px;
+}
+
+.green-btn {
+  background-color: var(--green);
+  color: var(--white);
+  max-width: 340px;
+  width: 100%;
+  height: 64px;
+  font-size: 20px;
+  line-height: 64px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0px 8px 23px rgba(80, 107, 82, 0.13);
+}

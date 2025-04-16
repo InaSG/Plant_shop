@@ -1,7 +1,7 @@
+import BestSection from "./components/BestSection";
 import CategoriesSection from "./components/CategoriesSection";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
-import Title from "./components/Title";
 import TopBanner from "./components/TopBanner";
 
 export default function App() {
@@ -10,5 +10,6 @@ export default function App() {
 		<Header />
     <Hero /> 
 	<CategoriesSection />
+	<BestSection />
 	</>);
 }
